@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <!-- Imagen centrada con margen desde la parte superior -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="243dp"
+        android:layout_height="219dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/user_9187466" />
+
+    <!-- Campo de correo centrado debajo de la imagen -->
+    <EditText
+        android:id="@+id/etRegisterEmail"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Correo electrónico"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_edittext"
+        android:padding="10dp" />
+
+    <!-- Campo de contraseña centrado debajo del campo de correo -->
+    <EditText
+        android:id="@+id/etRegisterPassword"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/etRegisterEmail"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_edittext"
+        android:padding="10dp" />
+
+    <!-- Contenedor para los botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRegisterPassword"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerHorizontal="true">
+
+        <!-- Botón de registrarse -->
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Registrarse"
+            android:background="@drawable/rounded_button"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botón de iniciar sesión -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Iniciar sesión"
+            android:background="@drawable/rounded_button" />
+    </LinearLayout>
+
+</RelativeLayout>

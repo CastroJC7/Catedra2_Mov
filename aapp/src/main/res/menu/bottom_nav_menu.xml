@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ini"
+    android:title="Inicio"/>
+
+    <item
+        android:id="@+id/action_select_food"
+        android:icon="@drawable/food"
+        android:title="Seleccionar Alimentos y Bebidas"/>
+    <item
+        android:id="@+id/action_view_order"
+        android:icon="@drawable/cart"
+        android:title="Ver Orden"/>
+    <item
+        android:id="@+id/action_order_history"
+        android:icon="@drawable/shop"
+        android:title="Historial de Compras"/>
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/logout"
+        android:title="Cerrar Sesión"/>
+</menu>
