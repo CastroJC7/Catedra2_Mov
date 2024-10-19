@@ -13,3 +13,6 @@ Link de Mock Ups: https://www.canva.com/design/DAGT9vXELXo/uNAPpDFuKFZLmAVQIaI5-
 
 link de las licencias: https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1
 
+link del repositorio de la primera fase: https://github.com/Emerson-gabrielx/Aplicaci-n-Movil-FarmaciaPlus.git
+
+
